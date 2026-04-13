@@ -52,7 +52,7 @@ jobs:
           zip ../Installation-Files.zip *.ps1
 
       - name: New release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           # tag_name: ${{ vars.GITHUB_HEAD_REF }}
           # name: ${{ vars.GITHUB_HEAD_REF }}
